@@ -71,6 +71,7 @@ nav {
 }
 .navbar-shopping-cart {
     position: relative;
+    cursor: pointer;
 }
 .navbar-shopping-cart div {
      width: 16px;
@@ -257,7 +258,7 @@ aside {
 
 
 
-  /*Product Detail ----------------------------------------------------*/
+  /*Product Detail --------------------------------------------------- */
 
   .product-detail-close {
     background: var(--white);
@@ -319,7 +320,7 @@ aside {
 
 
 
-/* Product List -------------------------------------------------------*/
+/* Product List ------------------------------------------------------ */
 
 .cards-container {
     display: grid;
@@ -336,6 +337,7 @@ aside {
     height: 240px;
     border-radius: 20px;
     object-fit: cover;
+    cursor: pointer;
   }
   .product-card .product-info {
     display: flex;
